@@ -1,0 +1,527 @@
+/*
+html, body {
+	height: 100%;
+}
+*/
+body
+{
+	margin: 0;
+	background-color: #2F3336;
+	color: #304;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+	background-image: url("img/ignasi_pattern_s.png");
+    
+    
+/*
+    background-size: cover;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+*/
+}
+
+.logo:link
+{
+	text-align: center;
+	font-size: 44px;
+	font-weight: 600;
+	color: #1c74b2;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 17x;
+	margin-bottom: 15px;
+	text-decoration:none;
+	
+	
+}
+.logo:hover{
+	text-decoration:none;
+}
+.logo:visited{
+	text-align: center;
+	font-size: 44px;
+	font-weight: 600;
+	color: #1c74b2;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 17x;
+	margin-bottom: 15px;
+	text-decoration:none;
+	
+}
+
+#topnav
+{
+	background-color: #1c74b2;
+	text-align: center;
+}
+
+.menu
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+}
+
+.menu > li
+{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px dashed #0a2b42;
+}
+
+.menu > li:first-child
+{
+	border-left: 1px dashed #0a2b42;
+}
+
+.menu a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu a:hover
+{
+	color: #0a2b42;
+}
+
+.categories
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding: 0;
+}
+
+h1
+{
+	font-size: 44px;
+	font-weight: 300;
+	color: #39a5f1;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+p{
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+.author
+{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.author a
+{
+	opacity: 0.9;
+}
+
+.author a:hover
+{
+	opacity: 1;
+}
+.zaloguj
+{ 	
+    border-radius: 20px;
+	margin: 10px;
+	padding: 10px;
+	background-color: #1c74b2;
+	text-align: center;
+	width: 500px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+    
+	
+	
+	
+
+}
+.rejestracja
+{ 	width: 600px;
+	height: 370px;
+	border:1px solid;
+	resize:both;
+	overflow:auto;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #1c74b2;
+	text-align: center;
+	border-radius: 10px;
+
+
+}
+figure
+{
+	margin: 8px;
+	padding: 0;
+}
+
+figcaption
+{
+	margin-top: 8px;
+	padding: 0;
+}
+
+.entries
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	margin-top: 40px;
+}
+
+#newest
+{
+	background-color: #191d21;
+}
+
+.entry
+{
+	background-color: #222930;
+	padding: 10px;
+	text-align: justify;
+	margin-top: 40px;
+	border-radius: 5px;
+}
+
+.entryimg
+{
+	display: inline-block;
+	margin-left: 30px;
+	width: 110px;
+}
+
+.entryimg img
+{
+	width: 90px;
+	height: 90px;
+}
+
+.entrytxt
+{
+	display: inline-block;
+	width: 750px;
+	font-size: 15px;
+}
+
+h2
+{
+	font-size: 20px;
+	font-weight: 400;
+	color: #39a5f1;
+}
+
+.contact
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding-bottom: 70px;
+	margin-bottom: 50px;
+}
+
+.contact p
+{
+	margin-bottom: 50px;
+}
+
+.bluebutton
+{
+	background-color: #1c74b2;
+	padding: 15px;
+	color: #efefef;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	min-width: 300px;
+}
+
+.bluebutton:hover
+{
+	background-color: #196499;
+}
+
+
+.socials
+{
+	width:100%;
+	text-align: center;
+	background-color: #191d21;
+}
+
+.socialdivs
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+}
+
+.yt
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.gplus:hover
+{
+	background-color: #d95333;
+}
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+
+.west
+{
+	float: left;
+	width: 750px;
+	padding: 20px;
+	text-align: justify;
+}
+
+.east
+{
+	float: left;
+	width: 170px;
+	padding: 20px;
+}
+
+.west h1
+{
+	font-size: 32px;
+	font-weight: 400;
+	color: #39a5f1;
+	margin-bottom: 20px;
+}
+
+.east ul
+{
+	padding-left: 20px;
+}
+
+.east ul > li
+{
+	margin-bottom: 5px;
+}
+
+.east img
+{
+	margin-top: 15px;
+}
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main{
+
+}
+.square
+{     
+    text-align: center;
+    
+  
+   
+
+
+}
+.tile5
+{
+	margin: 10px;
+	width: 420px;
+	height: 244px;
+	background-color: #666666;
+	text-align: justify;
+	padding: 30px;
+}
+
+.yt
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d94348;
+    
+    
+	
+}
+
+.yt:hover
+{
+	background-color: #c83237;
+}
+
+.fb
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #4668b3;
+   
+	
+}
+
+.fb:hover
+{
+	background-color: #3557a2;
+}
+
+.gplus
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d95333;
+ 
+	
+}
+
+.gplus:hover
+{
+	background-color: #c84222;
+}
+
+.tw
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #3095d3;
+	
+}
+
+.tw:hover
+{
+	background-color: #2084c2;
+}
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 230px;
+	height: 142px;
+}
+
+a.tilelinkhtml5
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 105px;
+	height: 142px;
+}
+.rectangle
+{
+	width: 960px;
+	margin: 20px;
+	text-align: center;
+}
+.powitanie{
+    background: white;
+    text-align: center;
+    width: 500px;
+	height: 50px;
+    
+}
+
+.app-container {
+	max-width: 450px;
+	width: 100%;
+	padding: 25px;
+	
+	background: rgba(255, 255, 255, 0.7);
+	box-shadow: 0 0 62px rgba(0,0,0,0.1);
+}
+
+.app-container h3 {
+	margin: 0 0 25px;
+}
+
+/* New task */
+.new-task-container {
+	margin-bottom: 20px;
+}
+
+/* Tasks list */
+.tasks-container ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Single task*/
+.single-task {
+	margin-bottom: 12px;
+}
